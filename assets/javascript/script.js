@@ -1,14 +1,6 @@
 import * as elementos from "./elementos.js"
+import * as functions from "./functions.js"
 
-function verificarYellow (){
-    for( let i = 0; i<5; i++){
-        if(elementos.estrela[i].classList.contains("yellow")){
-            elementos.estrela[i].classList.remove("yellow")
-        } else {
-            return
-        }
-    }
-}
 
 elementos.continuar.onclick = () => {
     elementos.notaEstrela[0].classList.add("hidde")
@@ -16,28 +8,28 @@ elementos.continuar.onclick = () => {
 }
 
 elementos.estrela[0].onclick = () => {
-    verificarYellow()
+    functions.verificarYellow()
     for(let i =0; i< 1; i++ ){
         elementos.estrela[i].classList.add("yellow")
     }
 }
 
 elementos.estrela[1].onclick = () => {
-    verificarYellow()
+    functions.verificarYellow()
     for(let i =0; i< 2; i++ ){
         elementos.estrela[i].classList.add("yellow")
     }
 }
 
 elementos.estrela[2].onclick = () => {
-    verificarYellow()
+    functions.verificarYellow()
     for(let i =0; i< 3; i++ ){
         elementos.estrela[i].classList.add("yellow")
     }
 }
 
 elementos.estrela[3].onclick = () => {
-    verificarYellow()
+    functions.verificarYellow()
     for(let i =0; i< 4; i++ ){
         elementos.estrela[i].classList.add("yellow")
     }
