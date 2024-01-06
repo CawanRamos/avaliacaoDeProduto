@@ -1,0 +1,89 @@
+@import url(./comentario.css);
+
+@import url(./estrela.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+ 
+ body {
+    height: 100vh;
+    background: var(--Brand-gradient-dark, linear-gradient(180deg, #0F0A31 0%, #3F347E 100%));
+    display: grid;
+    place-items: center;
+
+}
+
+header {
+    max-width: 37rem;
+    height: 18rem;
+    border-radius: 2rem 2rem 0 0;
+    background: var(--Brand-gradient-light, linear-gradient(77deg, #4453B2 -0.41%, #502C9E 98.95%));
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+#relogio {
+    position: absolute;
+    bottom:0;
+    left: 33%;
+}
+
+main {
+    background-color: white;
+    max-width: 37rem;
+    padding: 4.8rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    border-radius:  0 0 2rem 2rem;
+    margin-top: -.2rem;
+}
+
+section h1 {
+    color: #0C0C0D;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+p {
+    color: #2F2F33;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin: .8rem 0 3.2rem;
+}
+
+.custom-button {
+    color:  #FAFAFA;
+    border-radius: 8px;
+    background: #685ED9;
+    padding: 1.6rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .custom-button:hover {
+    cursor: pointer;
+    background:#4436dc;;
+  }
+
+  .hidde {
+    display: none;
+  }

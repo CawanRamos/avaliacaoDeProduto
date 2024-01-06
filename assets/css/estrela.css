@@ -1,0 +1,56 @@
+.notaEstrela p span {
+    color: #4439C7;
+}
+
+.estrelas {
+    display: flex;
+    justify-content:space-between; 
+    width: 100%;
+}
+
+.estrela{
+    filter: grayscale(100%);
+}
+
+.estrela:hover {
+    background-color: gray;
+    border-radius: 999px;
+}
+
+.yellow {
+    filter: grayscale(0%);
+}
+
+.nivel {
+    display: flex;
+    justify-content:space-between; 
+    width: 100%;
+}
+
+.nivel p {
+    color: #75747A;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+#continuar {
+    color:  #FAFAFA;
+    border-radius: 8px;
+    background: #685ED9;
+    padding: 1.6rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#continuar:hover {
+    cursor: pointer;
+    background:#4436dc;;
+  }
