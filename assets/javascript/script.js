@@ -1,10 +1,15 @@
 import * as elementos from "./elementos.js"
 import * as functions from "./functions.js"
 
-
 elementos.continuar.onclick = () => {
     elementos.notaEstrela[0].classList.add("hidde")
     elementos.comentario[0].classList.remove("hidde")
+}
+
+elementos.enviar.onclick = () => {
+    elementos.comentario[0].classList.add("hidde")
+    elementos.notaEstrela[0].classList.remove("hidde")
+    functions.verificarYellow()
 }
 
 elementos.estrela[0].onclick = () => {
