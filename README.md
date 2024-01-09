@@ -15,7 +15,7 @@ Realizei o desenvolvimento do projeto com as seguintes tecnologias:
 ## 📝 Projeto
 
 - Este projeto é um widget feito para avaliar um produto, onde na primeira tela é posível avaliar de uma a cinco estrelas e na segunda deixar uma avaliação escrita.
-- Você pode acessar meu projeto finalizado pelo link.
+- Você pode acessar meu projeto finalizado pelo link: https://cawanramos.github.io/avaliacaoDeProduto/
 
 ## 🎨 Layout 
 
